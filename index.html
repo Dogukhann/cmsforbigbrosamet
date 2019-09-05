@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <form name="form" class="form" onsubmit="return false">
+            <div class="title">
+                <input type="text" id="minInput" placeholder="Title">
+            </div>
+                <div class="content">
+                    <textarea name="" id="" placeholder="Content" class="minCont" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" placeholder="Second-Content" class="minCont" cols="30" rows="10"></textarea>
+
+                </div>
+                <div class="go" style="text-align:center">
+                    <button class="get">ADD</button>
+                </div>
+                <div id="areawillshow">
+                        <table name="firstContent">
+                                <tr>
+                                  <th id="titlemis" aria-placeholder="Başlık" style="text-align: center;">Başlık</th>
+                                </tr>
+                                <tr>
+                                  <td id="big" aria-placeholder="Içerik">Içerik
+                                       <a href=""><i class="glyphicon glyphicon-remove"></a></i>
+                                    </a>
+                                    <a href=""><i class="glyphicon glyphicon-plus"></i></a>
+                                    <a href="">Show More</a>
+                                  </td>
+
+                                </tr>
+                              </table>
+                              <br>
+                              <table name="ikIcerik">
+                                  <tr>
+                                      <th id="secBaslik" style="text-align:center">CODE</th>
+                                    </tr>
+                                    <tr>
+                                        <td id="seContent">Content of code</td>
+                                    </tr>
+                              </table>
+                </div>
+            </form>
+</body>
+<script src="./contr.js"></script>
+</html>

@@ -1,0 +1,43 @@
+.minCont{
+    position: relative;
+    right:50px;
+    top:20px;
+    left:500px;
+}
+#minInput{
+    position: relative;
+    top:15px;
+    left:500px;
+}
+.get{
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 35px;
+    border: none;
+    border-radius: 20px;
+}
+
+p{
+    position:relative;
+    padding: 10px 20px;
+    margin: 35px;
+    border:1px solid #000;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+
+  table[name="firstContent"]{
+      border-collapse: collapse;
+        margin:0 auto;
+        width:250px;
+  }
+
+  table[name="ikIcerik"]{
+    border-collapse: collapse;
+      margin:0 auto;
+      width:250px;
+}
